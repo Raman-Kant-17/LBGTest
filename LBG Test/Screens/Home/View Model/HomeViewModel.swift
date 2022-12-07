@@ -18,7 +18,6 @@ class MyArtResult: ObservableObject {
 class HomeViewModel {
     
     var myArtResult: MyArtResult
-    var isVehicleChanged = false
     
     init(_myArtResult: MyArtResult) {
         self.myArtResult = _myArtResult
